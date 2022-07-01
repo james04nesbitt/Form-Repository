@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <h1 id="title">
+        Programmers Questionarre
+    </h1>
+    <p id="description">
+        Enter Text
+    </p>
+
+
+    <form id="survey-form">
+        <label id="name-label">Name<br><input type="text" id="name" placeholder="John Smith" required></label><br>
+        <label id="email-label">Email<br><input type="email" id="email" placeholder="john.smith@gmail.com" required></label><br>
+        <label id="number-label">Number<br><input type="number" id="number" placeholder="Number" min="0" max="99"> </label><br>
+        <label>Your Language<br></label>
+        <select id="dropdown">
+            <option value="default">
+                Select One
+            </option>
+            <option value="python">
+                Python
+            </option>
+            <option value="javascript">
+                Javascript
+            </option>
+
+        </select><br>
+        <p>I am a:</p>
+        <label><input type="radio" name="attribute" class="inline" value="radio">Student</label><br>
+        <label><input type="radio" name = "attribute" class="inline" value ="radio">Employee</label>
+        <br>
+        
+        <p>Select what typoe of jobs you are into</p>
+        <div class="jobs">
+            <label ><input type="checkbox" name="attribute" class="inline" value="checkbox">Web Development</label>
+            <label ><input type="checkbox" name="attribute" class="inline" value="checkbox">Data Science</label>
+            <label ><input type="checkbox" name="attribute" class="inline" value="checkbox">CyberSecurity</label>
+        </div>
+        <label >Coments:<br><textarea class="comments"></textarea></label><br>
+        <input type="submit" value="submit">
+
+
+
+
+    </form>
+
+
+</body>
+</html>
